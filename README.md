@@ -58,3 +58,9 @@ cd C:\Users\DELL\Downloads\acolite_py_win_20231023.0\acolite_py_win
 dist\acolite\acolite.exe --cli --settings=D:\img\corregidas\settings_l8.txt --inputfile=D:\one\Escritorio\list_landsat8.txt
 
 ## 3. Comparing satellite images from different sensors
+
+The purpose of this R script is to compare the infrared bands of two different satellites for the same date and location. 
+Firstly, you need stacks of two bands, each corresponding to a specific satellite. 
+The script allows you to extract the values of these bands to a CSV file and then plot a scatterplot to compare the pixel values of the bands.
+
+https://github.com/mairagayol/turbidity_estimation/blob/main/band_comparison_l7_vs_S2.R
